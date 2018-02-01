@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
         <meta charset="utf-8">
         <title> The Third Project: Better Instagram</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css" type="text/css" />
-
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    </head>
-    <body>
+  </head>
+    
+  <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
         <a class="navbar-brand" href="#"><i class="fa fa-instagram"></i>&nbsp;Instagram</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,39 +35,84 @@
         </div>
       </nav>
       
-      <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div class="col-4" style="text-align: center" >
-            <span class="fa fa-bars"></span>
-            <span class="fa fa-square"></span>
+      <div class="container-fluid h-100">
+        <div class="row h-100 justify-content-center align-items-center" id="whiteNav">
+          <div class="col-4" style="text-align: right" >
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-grid-tab" data-toggle="pill" href="#pills-grid" role="tab" aria-controls="pills-grid" aria-selected="true"><span class="fa fa-th"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-list-tab" data-toggle="pill" href="#pills-list" role="tab" aria-controls="pills-list" aria-selected="false"><span class="fa fa-square"></span></a>
+              </li>
+            </ul>
           </div>
         </div>
-     
-          <div class="row">
-            
-              <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
-              </div>
-              <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
-              </div>
-              <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
-              </div>
+          
+         
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="pills-grid" role="tabpanel" aria-labelledby="pills-grid-tab">
+        <div class="row no-gutters">
+                <div class="col-md-4 my-auto imagesPost" id="image1"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image2"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image3"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image4"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image5"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image6"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image7"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image8"></div>
+                <div class="col-md-4 my-auto imagesPost" id="image9"></div>
           </div>
-          <div class="row">
-            
-              <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
-              </div>
-              <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
-              </div>
-              <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
-              </div>
+        </div>
+        
+        
+          <div class="tab-pane fade" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab">
+            <div class="row justify-content-center">
+                <div class="col-md-6 post1">
+                  <div class="card justify-content-center" id="postCards1">
+                    <div class="card-header justify-content-between">
+                      <h3>My first photo</h3>
+                      <p>1/31/18</p>
+                    </div>
+                      <img class="cardImage img-fluid " src="cozy2.jpg"></img>
+                    <div class="card-block">
+                      <h5 class="card-title">23 Likes</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="cardFooter text-muted justify-content-between">
+                      <p><span class="fa fa-heart"></span> Comment...</p>
+                      <span class="fa fa-ellipsis-v"></span>
+                    
+                    </div>
+        
+                  </div>
+                <!--second post starts here-->
+                  
+                  <div class="card justify-content-center" id="postCards2">
+                    <div class="card-header justify-content-between">
+                      <h3>My first photo</h3>
+                      <p>1/31/18</p>
+                    </div>
+                      <img class="cardImage img-fluid " src="cozy2.jpg"></img>
+                    <div class="card-block">
+                      <h5 class="card-title">23 Likes</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="cardFooter text-muted justify-content-between">
+                      <p><span class="fa fa-heart"></span> Comment...</p>
+                      <span class="fa fa-ellipsis-v"></span>
+                    
+                    </div>
+        
+                  </div>
+                  
+                </div>
+                
+            </div>
           </div>
-    </div>
+        </div>
+    
+  
   
       
   
@@ -77,5 +122,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-      </body>
+  </body>
 </html>

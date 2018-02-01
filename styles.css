@@ -1,0 +1,98 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #a6a6a6;
+}
+
+.nav-link {
+    color: #495057;
+}
+.nav-link.active {
+    color: #fff;
+}
+a:hover { color: #495057; }
+
+.imagesPost {
+    background-size: cover;
+    min-height: 300px;
+}
+
+#image1 {
+    background-image: url(cozy5.jpg);
+    
+}
+
+#image2 {
+    background-image: url(cozy4.jpg);
+    
+}
+
+#image3 {
+    background-image: url(cozy2.jpg);
+}
+    
+#image4 {
+    background-image: url(cozycolors1.jpg);
+}
+
+#image5 {
+    background-image: url(cozycolors2.jpg);
+    
+}
+
+#image6 {
+    background-image: url(fairylights1.jpg);
+    
+}
+#image7 {
+    background-image: url(fairylights2.jpg);
+    
+}
+#image8 {
+    background-image: url(fairylights3.jpg);
+    
+}
+#image9 {
+    background-image: url(fairylights4.jpg);
+    
+}
+
+
+.cardImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-header {
+    display: flex;
+    background-color: #fff;
+    font-size: 22px;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.row {
+    background-color: #e8e8e5;
+}
+
+.cardFooter {
+    display: flex;
+    margin: 30px 10px 10px 10px;
+    text-align: center;
+    
+}
+
+.card-block {
+    margin: 30px 10px 10px 10px;
+}
+
+#whiteNav {
+    background-color:  white;
+}
+
+#postCards1 {
+    margin-top: 30px;
+   margin-bottom: 50px;
+}
+#postCards2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
