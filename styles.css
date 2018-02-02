@@ -13,6 +13,8 @@ a:hover { color: #495057; }
 .imagesPost {
     background-size: cover;
     min-height: 300px;
+    border: 1px solid #f7f7f7;
+    border-radius: 3px;
 }
 
 #image1 {
@@ -22,6 +24,7 @@ a:hover { color: #495057; }
 
 #image2 {
     background-image: url(cozy4.jpg);
+    border: 1px;
     
 }
 
@@ -67,11 +70,13 @@ a:hover { color: #495057; }
     font-size: 22px;
     padding: 0;
     margin: 0 10px;
+    align-items: center;
 }
 
 .row {
     background-color: #e8e8e5;
 }
+
 
 .cardFooter {
     display: flex;
@@ -90,9 +95,50 @@ a:hover { color: #495057; }
 
 #postCards1 {
     margin-top: 30px;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 #postCards2 {
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+#postCards3 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#postCards4 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#postCards5 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.brand {
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+    
+}
+
+.dropdown:last-child .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.socialGraphic {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+    
+}
+
+#pills-tab {
+    margin: 8px 0px;
 }
